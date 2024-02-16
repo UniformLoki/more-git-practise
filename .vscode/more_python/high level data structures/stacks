@@ -1,0 +1,5 @@
+-A last in and first out structure (LIFO)
+
+Operations:
+    Push(): to put item on top of stack
+    Pop(): to remove item

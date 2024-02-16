@@ -1,0 +1,13 @@
+linked lists are made of nodes
+a node contains two pieces of information
+    1)data - the items interest
+    2)link - the memory location of the next node
+    
+items are not necessarily stored in contiguous memory locations
+can grow and shrink in size
+not as fast as an array because the next item might not be adjacent in memory
+due to each node also having a link, the linked list requires more space
+
+first node is referred to as the head
+and the last node is he tail
+linear structure

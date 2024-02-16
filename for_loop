@@ -1,0 +1,66 @@
+for value in table:
+    print(value)
+
+for i, value in enumerate(table):
+    print(i, value)
+    
+for i in range(len(table)):
+    print(i, table[i])
+
+Binary Search: The process of finding a value in an ordered list by comparing the middle and partitioning the list in half till the value is found
+insertionsort:
+pulls the current highest unsorted number in a list and compres it to the the item to its left to decide it it should be put back
+
+def sequential_max(the_list):
+    max_val = the_list[0]
+    i = 0
+    while i < len(the_list) -1:
+        i+=1
+        if the_list[i] > max_val:
+        max_val = the_list[i]  
+    return max_val 
+
+def binary_search(search_val, the_list):
+    lower_index = 0
+    higher_index = len(the_list) - 1
+
+    found  = False
+    while lower_index <= higher_index and found != True:
+        mid_index = (higher_index + lower_index)//2
+
+        if seach_val == the_list[mid_index]:
+            found = True
+        elif search_val > the_list[mid_index]
+            lower_index = mid_index + 1
+        elif search_val < the_list[mid_index]
+            Higher Index_index = mid_index -1 1
+    if found:
+        return mid_index
+    else:
+        return None
+
+def selection_sort(the_list):
+    n = len(the_list)
+
+    for i in range(n-1):
+        min_index = i
+
+        for j in range(i+1,n)
+            if the_list[j] < the_list[min_index]:
+                min_index = j
+        temp = the_list[i]
+        the_list[i] = the_list[min_index]
+        the_list[min_index] = temp
+
+
+
+def bubble_sort(the_list):
+    n = len(the_list)
+
+    for i in range(n-1):
+        for j in range(n- i - 1):
+            if the_list[j] > the_list[j+1]:
+                temp = the_list[j]
+                the_list[j] = the_list[j+1]
+                the_list[j+1] = temp
+

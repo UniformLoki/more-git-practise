@@ -1,0 +1,17 @@
+top most node is called a root node and has child nodes branching from it which create their own child nodes
+when you run out of child nodes you get leafs
+Level is the vertical placement from the root
+children is the nodes one level below a nod of interest. max possible children per node in a binary tree is 2
+leaf is a node with no children
+subtree is a portion of the tree
+Balanced: not lopsided, for any node the hieght of the left and right subtrees differ by no more than 1
+if a tree is balanced, then there will be no more than ceiling(log_2(n)) levels
+
+for any tree the left child if smaller than the parent, and the right child is larger (or equal to)
+
+best represented as an array
+
+left childe: 2i +1
+right childe: 2i + 2
+
+if child is at i, then the parent is a floor((i-1)/2)

@@ -1,0 +1,36 @@
+Order of execution
+    -loops( for/while)
+    -functions
+    -Object oreinted programming
+        - state (describes the object with attributes)
+        - behavior (includes actions, methods)
+        - members (state and behavior)
+        - constructor (called on instatiation, double underscore)
+        - instantiate (process of creating a class)
+        - object refrence (variable, in the class we us 'self')
+        - operator overloading
+        -instance variables vs class variables
+            -instance variables are usually created within the constructor (normally begin with self.variable)
+        - dot operator
+        -getters/accessor
+        -setters/mutator
+        -decorators (@property)
+        - super/parent class
+        - child/sub class
+
+
+formal parameters and actual parameters
+
+determining output of code
+
+using 'global' keyword: allows the variable to be modified outside of its original function
+    difference between local and global variables
+
+constructing class diagrams: rectangles with three zones
+    top zone: className (upperCamelCase)
+    middle zone: state (identifier : type)
+    bottom zone: behavior (funcName(): returnType)
+    use arrows to shows that a class belongs as a version of another class. arrow stands for (is a...)
+    dotted line means (has a...)
+
+

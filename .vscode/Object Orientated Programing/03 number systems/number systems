@@ -1,0 +1,20 @@
+base 10 (decimal)
+base 8 (octal)
+base 16 (Hex)
+
+converting binary to decimal
+
+Ex: convert 10100 to decimal:  20 
+
+Ex convert Hex to decimal: 3A5 to decimal: (5 X 16^0)+ (10 X 16^1) + (3 x 16^2) = 5 + 160 + 768 = 933
+Ex convert Hex to decimal: FADE to decimal: (F x 16^3) +(A x 16^2) + (D x 16^1) + (E x 16^1) = (15 X 16^3) + (10 x 16^2) + (13 x 16^1) + (14 x 16^0)
+Ex Deciaml to Binary: 
+    method 1: subtract the highest power of two that doesnt go over the original number and continue until you can no longer subtract a power of two less than the orignial number
+    method 2: divide by two constantly
+    42/2 = 21 remainder:0
+    21 / 2 = 10 remainder:1
+    10/2 = 5 remainder 0
+    5/2 = 2 remainder 1
+    2/2 = 1 remainder 0
+    1/2 = 0 remainder 1
+    read it in reverse for the binary value 101010

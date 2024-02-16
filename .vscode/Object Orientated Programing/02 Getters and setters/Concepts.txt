@@ -1,0 +1,45 @@
+Concepts:
+
+getters/accessors
+    - used to add functionality when getting state(attributes)
+    - In many languages, the developers can decide that the state is "private"
+    meaning it can only be changed from within the class. Python is not like this
+
+
+setters/mutators
+    - used to add functionality when setting state
+    - In many languages, the developers can decide that the state is "private"
+    meaning it can only be changed from within the class. Python is not like this
+
+decorators
+    -a way to modify a function in python 
+    - Ex: Property
+
+syntactic sugar
+    -the idea of a programming language providing a simple way to accomplish something more complex
+
+Class diagrams:
+    represented by writing the class name in a box in upper_cammel_case
+    EX: AirVehichle, GroundVehichle
+    Use a solid arrow to indicate relationshp
+    a dotted line to show that an object includes an item
+
+    Vehichle includes: year, make, model, and engine
+    year : int
+    make: setters
+    model: str
+    engine: engine
+
+    go_forward()
+    go_backward()
+    turn(direction_str)
+
+    Engine: kind, hp
+    kind: str
+    hp: int
+    start()
+
+    Car: make, model, num_doors
+    make: str
+    model: str
+    num_doors: int

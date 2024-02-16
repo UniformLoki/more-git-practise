@@ -1,0 +1,19 @@
+Datatypes
+    -
+    -ex: int, str, float, booleans, list, dict, set, sequences
+
+Primitive types
+    -type of data built into the language
+    -In python we have str, int, float, and booleans
+
+constants
+    - Values that don't change
+    - We typically use all caps to indicate a constant
+    - Ex: WIDTH
+
+Primary Control Constructs
+    - Selection - the idea of the code being able to run certain blocks of code but not others
+    - sequence - code will run in a specified order. implicitly defined
+    - Repetition - running a specific set of code over and over
+                1. Iteration - lika a for/while loop
+                2. Recursion - involves a function that calls itself

@@ -1,0 +1,5 @@
+First in first out
+
+operations:
+    enqueue() : place an item at the back
+    dequeue() : removes an item from the front
